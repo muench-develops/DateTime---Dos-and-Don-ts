@@ -58,6 +58,9 @@ namespace DateTimeProject
             var formattedDateToFormat = parsedDateToFormat.ToOffset(TimeSpan.FromHours(10));
             Console.WriteLine(formattedDateToFormat.ToString("O"));
 
+
+            //You should work with DateTimeOffset and UTC / ISO 8601
+
         }
     }
 }
