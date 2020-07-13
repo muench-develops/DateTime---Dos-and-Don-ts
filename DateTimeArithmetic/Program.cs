@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace DateTimeArithmetic
 {
@@ -22,6 +23,10 @@ namespace DateTimeArithmetic
             TimeSpan difference = endDate - startDate;
 
             Console.WriteLine($"Difference in Seconds {difference.Seconds}");
+
+            //Get week of Year
+            var isoWeek = ISOWeek.GetWeekOfYear(startDate.DateTime);
+            Console.WriteLine($"It's Calendar Week: {isoWeek}");
 
         }
     }
