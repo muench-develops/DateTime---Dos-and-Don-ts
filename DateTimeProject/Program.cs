@@ -59,7 +59,7 @@ namespace DateTimeProject
             Console.WriteLine(formattedDateToFormat.ToString("O"));
 
 
-            //You should work with DateTimeOffset and UTC / ISO 8601
+            //You should work with DateTimeOffset (Contains the offset to UTC) and UTC / ISO 8601
 
         }
     }
