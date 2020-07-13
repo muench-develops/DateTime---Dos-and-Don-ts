@@ -30,7 +30,7 @@ namespace DateTimeArithmetic
 
             //Extend Contract - Adding only 30 days can be false, if you for example want a contract to end at the end of a month
             var contractdateToExtend = new DateTimeOffset(2020, 2, 28, 0, 0, 0, TimeSpan.Zero);
-            Console.WriteLine($"Extending Date {contractdateToExtend}. After adding 1 Month it will extend at {contractdateToExtend.extendContract(1)}");
+            Console.WriteLine($"Extending Date {contractdateToExtend}. After adding 1 Month it will extend at {contractdateToExtend.ExtendContract(1)}");
 
         }
     }

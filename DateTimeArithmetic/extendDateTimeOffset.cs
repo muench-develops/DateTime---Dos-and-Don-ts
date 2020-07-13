@@ -6,7 +6,7 @@ namespace DateTimeArithmetic
 {
     static class extendDateTimeOffset
     {
-        public static DateTimeOffset extendContract(this DateTimeOffset current, int months)
+        public static DateTimeOffset ExtendContract(this DateTimeOffset current, int months)
         {
             //Get the previous day at 11:59 pm of the wished ending day
             var newContractDate = current.AddMonths(months).AddTicks(-1);
